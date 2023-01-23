@@ -16,11 +16,11 @@ var typed = new Typed('.anim', {
 
 var type = new Typed('.design', {
     strings: [
-        'HTML.',
-        'CSS.',
-        'JavaScript',
-        'PHP.',
-        'SQL'
+        'HTML. ',
+        'CSS. ',
+        'JavaScript. ',
+        'PHP. ',
+        'SQL. '
     ],
     typeSpeed: 0,
     backSpeed: 0,
