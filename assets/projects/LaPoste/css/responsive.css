@@ -1,0 +1,190 @@
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0 20px;
+    }
+    .text-bg h1 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .we_do_box h4 {
+        font-size: 25px;
+    }
+    .cont span {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .main_form {
+        padding: 40px 30px;
+    }
+    .cont h3 {
+        font-size: 37px;
+        line-height: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        padding: 15px 30px 10px 30px;
+    }
+    .mean-container .mean-bar {
+        margin-top: 0px;
+    }
+    .text-bg h1 {
+        font-size: 64px;
+    }
+    .asked .titlepage h2 {
+        font-size: 32px;
+    }
+    .text-bg a {
+        float: inherit;
+        margin-bottom: 30px;
+    }
+    .cont h3 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #fff;
+        padding: 20px;
+        margin-top: 52px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #000;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding-top: 6px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: none;
+    }
+    .sign_btn {
+        padding-left: 0px;
+    }
+    .sign_btn a {
+        color: #000;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 12px 0px 0px 0px;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: left;
+    }
+    .text-bg h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .text-img1 {
+        margin-top: -45px;
+    }
+    .text-bg a {
+        margin-bottom: 30px;
+    }
+    .titlepage h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .asked .titlepage h2 {
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .some h3 {
+        font-size: 24px;
+    }
+    .cont h3 {
+        font-size: 19px;
+        line-height: 30px;
+        ;
+        padding-bottom: 0px;
+    }
+    .cont p {
+        padding: 0px 0px;
+        padding-bottom: 60px;
+    }
+    .main_form {
+        padding: 30px 20px;
+    }
+    .testimonial_Carousel {
+        padding: 0;
+    }
+    #myCarousel .carousel-control-prev,
+    #myCarousel .carousel-control-next {
+        display: none;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -55px;
+    }
+    .navigation .navbar-collapse {
+        background: #fff;
+        padding: 20px;
+        margin-top: 56px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #000;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+    .testimonial_box {
+        padding: 0px 19px 40px 20px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .sign_btn a {
+        color: #000
+    }
+    .sign_btn {
+        padding-left: 0px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: none;
+    }
+}
+
