@@ -29,3 +29,31 @@ var type = new Typed('.design', {
     smartBackspace: false,
     loop: true
 });
+
+var typex = new Typed('.illustrate', {
+    strings: [
+        'PhotoShop.',
+        'Ilustrator.',
+        'Premier Pro.'
+    ],
+    typeSpeed: 0,
+    backSpeed: 0,
+    cursorChar: '_',
+    shuffle: true,
+    smartBackspace: false,
+    loop: true
+});
+
+var typez = new Typed('.code', {
+    strings: [
+        'Python',
+        'C#',
+        'TypeScript',
+    ],
+    typeSpeed: 0,
+    backSpeed: 0,
+    cursorChar: '_',
+    shuffle: true,
+    smartBackspace: false,
+    loop: true
+});
