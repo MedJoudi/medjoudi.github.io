@@ -1,25 +1,31 @@
+// *********  Typed.JS JQuery Plugin *********
+
 var typed = new Typed('.anim', {
     // Waits 1000ms after typing "First"
     strings: [
-        'Graphic ^500 Designer.', 
-        'Web ^500 Designer.',
-        'Web ^500 Developper.',
-        'Cloud ^500 Developper.'
-    ],
+        '',
+        'Web Designer.',
+        'Web Developper.',
+        'Graphic Designer.'
+        ],
     typeSpeed:100,
     backSpeed:100,
+    cursorChar: '_',
     loop:true,
 });
 
-var typed = new Typed('.design', {
+var type = new Typed('.design', {
     strings: [
-        'HTML.^500',
-        'CSS.^500',
+        'HTML.',
+        'CSS.',
         'JavaScript',
-        'Photoshop.^500',
-        'Premier Pro.^500'
+        'PHP.',
+        'SQL'
     ],
-    typeSpeed:100,
-    backSpeed:100,
-    loop:true,
+    typeSpeed: 0,
+    backSpeed: 0,
+    cursorChar: '_',
+    shuffle: true,
+    smartBackspace: false,
+    loop: true
 });

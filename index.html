@@ -18,7 +18,7 @@
     <!-- Page Navbar -->
     <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
-            <a class="logo" href="#">Med.Joudi</a>         
+            <a class="logo" href="#">Med Joudi</a>         
             <ul class="nav">
                 <li class="item">
                     <a class="link" href="#home">Home</a>
@@ -62,8 +62,9 @@
                 <span class="up">HI!</span>
                 <span class="down">I am Joudi</span>
             </h1>
-            <h1 class="header-subtitle"> I'm a <span class="anim"></span> </h1>        
-
+            <div class="header-subtitle">
+            <h1 > I'm a <sppan class="anim"></span> </h1>        
+            </div>
             <a href="/mycv/MedJoudiCV.pdf" download="">
                 <button class="btn btn-primary">Download CV</button>
             </a>
@@ -82,7 +83,7 @@
                 <div class="about-caption">
                     <p class="section-subtitle">Who Am I ?</p>
                     <h2 class="section-title mb-3">About Me</h2>
-                    <p>
+                    <p class="font-weight-bold text-muted">
                         I'm a passionated, motivated person, since a young age i've been so attached to everything related to computes and how they work. I studies several years into the domain 
                         of computes science, i studied 2 years at the ISI Kef, Tunisia (Institut Supérieur d'Informatique/ Superior Institute of Informatics) where we took on the Multimedia 
                         section, then i continued my studies in EKF Eger, Hungary (Eszeterhazy Karoly Fiscola) in the field of application programming for 2 years. I obtained the national certification 
@@ -107,8 +108,8 @@
                     <div class="service-card">
                         <div class="body">
                             <img src="assets/imgs/pencil-case.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
-                            <h6 class="title">Design Tools</h6>
-                            <p class="subtitle"> <p class="design"></p>
+                            <h6 class="title">Web</h6>
+                            <p  class="subtitle" > <span  class="design"></span></p>
                         </div>
                     </div>
                 </div>
@@ -211,16 +212,13 @@
             <p class="section-subtitle">How can you communicate?</p>
             <h6 class="section-title mb-5">Contact Me</h6>
             <!-- contact form -->
-            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+            <form action="https://formspree.io/f/mayznzer" enctype="multipart/form-data" method="POST" class="contact-form col-md-10 col-lg-8 m-auto">
                 <div class="form-row">
                     <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>                 
-                    </div>
-                    <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email"requried>                 
+                        <input name ="email" type="email" class="form-control" placeholder="Enter Email"requried>                 
                     </div>
                     <div class="form-group col-sm-12">
-                        <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
+                        <textarea name="message" rows="6"   class="form-control" placeholder="Your Name and Message"></textarea>
                     </div>
                     <div class="form-group col-sm-12 mt-3">
                         <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  

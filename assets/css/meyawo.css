@@ -11019,7 +11019,7 @@ a.text-dark:hover, a.text-dark:focus {
 .infos .subtitle i {
   width: 20px;
   display: inline-block;
-  position: relative;
+  position: center;
   top: 2px;
 }
 
@@ -11159,7 +11159,7 @@ p {
 }
 
 .service-card .body .subtitle {
-  position: absolute;
+  position: center;
   bottom: -100%;
   opacity: 0;
   visibility: hidden;
