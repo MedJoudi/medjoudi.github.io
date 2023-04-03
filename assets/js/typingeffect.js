@@ -4,9 +4,9 @@ var typed = new Typed('.anim', {
     // Waits 1000ms after typing "First"
     strings: [
         '',
-        'Web Designer.',
-        'Web Developper.',
-        'Graphic Designer.'
+        'Web Designer',
+        'Web Developper',
+        'Graphic Designer'
         ],
     typeSpeed:100,
     backSpeed:100,
@@ -16,11 +16,11 @@ var typed = new Typed('.anim', {
 
 var type = new Typed('.design', {
     strings: [
-        'HTML. ',
-        'CSS. ',
-        'JavaScript. ',
-        'PHP. ',
-        'SQL. '
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'PHP',
+        'SQL'
     ],
     typeSpeed: 0,
     backSpeed: 0,
@@ -32,9 +32,9 @@ var type = new Typed('.design', {
 
 var typex = new Typed('.illustrate', {
     strings: [
-        'PhotoShop.',
-        'Ilustrator.',
-        'Premier Pro.'
+        'PhotoShop',
+        'Ilustrator',
+        'Premier Pro'
     ],
     typeSpeed: 0,
     backSpeed: 0,
