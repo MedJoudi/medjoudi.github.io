@@ -272,9 +272,7 @@ select {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
+[type="submit"]
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -300,9 +298,7 @@ input[type="checkbox"] {
 input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
-input[type="month"] {
-  -webkit-appearance: listbox;
-}
+input[type="month"]
 
 textarea {
   overflow: auto;
@@ -338,8 +334,7 @@ progress {
 }
 
 [type="search"] {
-  outline-offset: -2px;
-  -webkit-appearance: none;
+  outline-offset: -2px
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -12235,3 +12230,40 @@ pre .code {
 
 
 
+.canvas-interactive-wrapper {
+  position: relative;
+  height: 300px;
+  text-align: center;
+}
+
+.canvas-interactive-wrapper canvas {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.canvas-interactive-wrapper .cta-wrapper {
+  margin-top: 130px;
+}
+
+.canvas-interactive-wrapper .cta-wrapper a {
+  position: relative;
+  display: inline-block;
+  padding: 7px 7px;
+  border: solid 1px transparent;
+  margin-right: 50px;
+  z-index: 1;
+  text-decoration: none;
+  color: #222;
+  transition: border .7s;
+  margin-top: 120px;
+}
+
+.canvas-interactive-wrapper .cta-wrapper a.active {
+  border-color: #222;
+}
