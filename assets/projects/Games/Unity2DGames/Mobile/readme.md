@@ -22,6 +22,7 @@ Once you open the folders **(Assets, Packages, ProjectSettings)** in Unity, you 
     <img src="Arrows/imgs/Screenshot 2023-05-04 141142.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141142.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141155.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141250.png" alt="My Image" width="200" margin="10px"/>
     </body>
 </html>
+
 ## Tasks
 - [x] The arrows scroll one after the other. They point randomly to one of the 4 directions *(up, down, right, left)*. 
 - [x] If the arrow is white, the user must slide on the screen in the direction of the arrow to score a point. If the arrow is yellow, the user must slide on the screen in the opposite direction of the arrow to score a point. 
