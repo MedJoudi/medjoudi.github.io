@@ -6,22 +6,10 @@ Project made with : *Unity Version 2012.3.23f1.*
 Once you open the folders **(Assets, Packages, ProjectSettings)** in Unity, you can then build the application.
 
 ## Screenshots of the application
-<!DOCTYPE html>
-<html>
-    <head>
-        <style>
-        .img {
-            display: flex;
-            gap: 25px;
-        }
-        </style>
-    </head>
-    <body>
-    <img src="Arrows/imgs/Screenshot 2023-05-04 141031.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141103.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141118.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141130.png" alt="My Image" width="200" margin="10px"/>
+<img src="Arrows/imgs/Screenshot 2023-05-04 141031.png" alt="My Image" width="200" margin-right="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141103.png" alt="My Image" width="200" margin-right="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141118.png" alt="My Image" width="200" margin-right="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141130.png" alt="My Image" width="200" margin-right="10px"/>
 
-    <img src="Arrows/imgs/Screenshot 2023-05-04 141142.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141142.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141155.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141250.png" alt="My Image" width="200" margin="10px"/>
-    </body>
-</html>
+<img src="Arrows/imgs/Screenshot 2023-05-04 141142.png" alt="My Image" width="200" margin-right="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141142.png" alt="My Image" width="200" margin-right="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141155.png" alt="My Image" width="200" margin-right="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141250.png" alt="My Image" width="200" margin-right="10px"/>
+
 
 ## Tasks
 - [x] The arrows scroll one after the other. They point randomly to one of the 4 directions *(up, down, right, left)*. 
