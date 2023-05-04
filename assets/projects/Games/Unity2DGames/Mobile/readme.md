@@ -1,33 +1,40 @@
-#Project Title
-Briefly introduce the purpose of your project in a sentence or two.
+# Arrow Mini-Game
+** An android mini-game built with Unity and Photoshop. **
 
-##Getting Started
-Include instructions for how to install and run your project, including any prerequisites. You may also want to include some example commands or code snippets.
+## Getting Started
+Project made with : * Unity Version 2012.3.23f1. *
+Once you open the folders ** (Assets, Packages, ProjectSettings) ** in Unity, you can then build the application.
 
-##Usage
-<img src="Arrows/imgs/Screenshot 2023-05-04 141031.png" alt="My Image" width="400"/>
-<img src="Arrows/imgs/Screenshot 2023-05-04 141103.png" alt="My Image" width="400"/>
-<img src="Arrows/imgs/Screenshot 2023-05-04 141118.png" alt="My Image" width="400"/>
-<img src="Arrows/imgs/Screenshot 2023-05-04 141130.png" alt="My Image" width="400"/>
-<img src="Arrows/imgs/Screenshot 2023-05-04 141142.png" alt="My Image" width="400"/>
-<img src="Arrows/imgs/Screenshot 2023-05-04 141142.png" alt="My Image" width="400"/>
-<img src="Arrows/imgs/Screenshot 2023-05-04 141155.png" alt="My Image" width="400"/>
-<img src="Arrows/imgs/Screenshot 2023-05-04 141250.png" alt="My Image" width="400"/>
-![My Image](./imgs/Screenshot 2023-05-04 141053.png)
-![My Image](./imgs/Screenshot 2023-05-04 141103.png)
-![My Image](./imgs/Screenshot 2023-05-04 141118.png)
-![My Image](./imgs/Screenshot 2023-05-04 141130.png)
-![My Image](./imgs/Screenshot 2023-05-04 141142.png)
-![My Image](./imgs/Screenshot 2023-05-04 141155.png)
-![My Image](./imgs/Screenshot 2023-05-04 141250.png)
+## Usage
+<br>
+<img src="Arrows/imgs/Screenshot 2023-05-04 141031.png" alt="My Image" width="200"/>
+<img src="Arrows/imgs/Screenshot 2023-05-04 141103.png" alt="My Image" width="200"/>
+<img src="Arrows/imgs/Screenshot 2023-05-04 141118.png" alt="My Image" width="200"/>
+<img src="Arrows/imgs/Screenshot 2023-05-04 141130.png" alt="My Image" width="200"/>
+<img src="Arrows/imgs/Screenshot 2023-05-04 141142.png" alt="My Image" width="200"/>
+<img src="Arrows/imgs/Screenshot 2023-05-04 141142.png" alt="My Image" width="200"/>
+<img src="Arrows/imgs/Screenshot 2023-05-04 141155.png" alt="My Image" width="200"/>
+<img src="Arrows/imgs/Screenshot 2023-05-04 141250.png" alt="My Image" width="200"/>
+<br>
 
-Provide some examples of how to use your project, including any options or flags that are available. If applicable, you may want to include screenshots or other visual aids.
+- [x] The arrows scroll one after the other. They point randomly to one of the 4 directions (up, down, right, left). 
+- [x] If the arrow is white, the user must slide on the screen in the direction of the arrow to score a point. If the arrow is yellow, the user must slide on the screen in the opposite direction of the arrow to score a point. 
+- [x] If the user slides in the wrong direction, he loses a point. 
+There is no time limit per arrow. 
+- [x] Each arrow scrolls when the user has made a slide. 
+- [x] The total score is the sum of the points won or lost and cannot be less than 0. 
+- [x] The duration of the mini-game is 1 minute 30 seconds.
+- [x] Stylish fully customizable UI.
+- [ ] Adding Music to the mini-game.
 
-##Contributing
-Explain how others can contribute to your project, such as by submitting bug reports or feature requests, or by submitting pull requests. You may also want to include guidelines for code style and formatting.
+## Contributing
+> You can contribute to the project, such as by submitting bug reports or feature requests, or by submitting pull requests. 
+> You may also want to include guidelines for code style and formatting.
 
-##License
-Specify the license under which your project is released.
+## License
+> MIT License for documentation and educational purposes.
 
-##Acknowledgments
-If you'd like, you can use this section to give credit to anyone who helped or inspired you during the creation of your project.
+### Acknowledgments
+---
+Credits:
+---
