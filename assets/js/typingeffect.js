@@ -6,6 +6,8 @@ var typed = new Typed('.anim', {
         '',
         'Web Designer',
         'Web Developper',
+        'Game Designer',
+        'Game Developper',
         'Graphic Designer'
         ],
     typeSpeed:100,
