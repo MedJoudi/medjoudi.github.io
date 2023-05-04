@@ -6,6 +6,12 @@ Project made with : *Unity Version 2012.3.23f1.*
 Once you open the folders **(Assets, Packages, ProjectSettings)** in Unity, you can then build the application.
 
 ## Screenshots of the application
+<script>
+.img {
+    display: flex;
+    gap: 25px;
+}
+</script>
 <img src="Arrows/imgs/Screenshot 2023-05-04 141031.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141103.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141118.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141130.png" alt="My Image" width="200" margin="10px"/>
 
 <img src="Arrows/imgs/Screenshot 2023-05-04 141142.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141142.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141155.png" alt="My Image" width="200" margin="10px"/><img src="Arrows/imgs/Screenshot 2023-05-04 141250.png" alt="My Image" width="200" margin="10px"/>
