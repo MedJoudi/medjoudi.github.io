@@ -12267,3 +12267,15 @@ pre .code {
 .canvas-interactive-wrapper .cta-wrapper a.active {
   border-color: #222;
 }
+
+
+.svg-container {
+  display: inline;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.svg-container img {
+  margin-right: 20px;
+  transition: transform 0.9s;
+  width: 50px;
+}

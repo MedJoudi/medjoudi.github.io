@@ -4,25 +4,24 @@ var typed = new Typed('.anim', {
     // Waits 1000ms after typing "First"
     strings: [
         '',
-        'Web Designer',
+        'Azure Cloud Administrator',
+        'Azure Cloud Developper',
+        'Azure Cloud DevOps',
         'Web Developper',
         'Game Designer',
         'Game Developper',
         'Graphic Designer'
         ],
-    typeSpeed:100,
-    backSpeed:100,
+    typeSpeed:50,
+    backSpeed:50,
     cursorChar: '_',
     loop:true,
 });
 
 var type = new Typed('.design', {
     strings: [
-        'HTML',
-        'CSS',
-        'JavaScript',
-        'PHP',
-        'SQL'
+        'Terraform',
+        'Ansible'
     ],
     typeSpeed: 0,
     backSpeed: 0,
@@ -32,11 +31,13 @@ var type = new Typed('.design', {
     loop: true
 });
 
-var typex = new Typed('.illustrate', {
+var typex = new Typed('.azure', {
     strings: [
-        'PhotoShop',
-        'Ilustrator',
-        'Premier Pro'
+        'Boards',
+        'Repos',
+        'Pipelines',
+        'Test Plans',
+        'Artifacts'
     ],
     typeSpeed: 0,
     backSpeed: 0,
@@ -48,14 +49,16 @@ var typex = new Typed('.illustrate', {
 
 var typez = new Typed('.code', {
     strings: [
-        'Python',
-        'C#',
-        'TypeScript',
+        'Prometheus',
+        'Grafana',
+        'Key Vaults',
+        'Backups'
     ],
-    typeSpeed: 0,
-    backSpeed: 0,
+    typeSpeed: 50,
+    backSpeed: 50,
     cursorChar: '_',
     shuffle: true,
     smartBackspace: false,
     loop: true
 });
+
