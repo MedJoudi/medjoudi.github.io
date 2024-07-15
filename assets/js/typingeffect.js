@@ -4,61 +4,57 @@ var typed = new Typed('.anim', {
     // Waits 1000ms after typing "First"
     strings: [
         '',
-        'Azure Cloud Administrator',
-        'Azure Cloud Developper',
-        'Azure Cloud DevOps',
+        'Cloud Admin',
+        'Cloud Developper',
+        'Cloud DevOps',
         'Web Developper',
         'Game Designer',
         'Game Developper',
         'Graphic Designer'
-        ],
-    typeSpeed:50,
-    backSpeed:50,
+    ],
+    typeSpeed: 50,
+    backSpeed: 50,
     cursorChar: '_',
-    loop:true,
+    loop: true,
 });
 
-var type = new Typed('.design', {
+var type = new Typed('.automatisation', {
     strings: [
-        'Terraform',
-        'Ansible'
+        'Bash',
+        'PowerShell',
+        'AzCLI'
     ],
     typeSpeed: 0,
     backSpeed: 0,
     cursorChar: '_',
-    shuffle: true,
+    shuffle: false,
     smartBackspace: false,
     loop: true
 });
 
-var typex = new Typed('.azure', {
-    strings: [
-        'Boards',
-        'Repos',
-        'Pipelines',
-        'Test Plans',
-        'Artifacts'
-    ],
-    typeSpeed: 0,
-    backSpeed: 0,
-    cursorChar: '_',
-    shuffle: true,
-    smartBackspace: false,
-    loop: true
-});
-
-var typez = new Typed('.code', {
+var typeing = new Typed('.monitor', {
     strings: [
         'Prometheus',
         'Grafana',
         'Key Vaults',
         'Backups'
     ],
-    typeSpeed: 50,
-    backSpeed: 50,
+    typeSpeed: 0,
+    backSpeed: 0,
     cursorChar: '_',
-    shuffle: true,
+    shuffle: false,
     smartBackspace: false,
     loop: true
 });
 
+var typex = new Typed('.cicd', {
+    strings:[
+        'Accelerating application development and deployment lifecycles.',
+        'Building quality and consistency into an automated build and release process.',
+        'Increasing application stability and uptime.'
+    ],
+    typeSpeed: 50,
+    backSpeed: 0,
+    cursorChar: '_',
+    loop: true
+});
